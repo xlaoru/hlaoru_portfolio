@@ -8,8 +8,6 @@ import CardMedia from '@mui/material/CardMedia';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
-import {motion} from 'framer-motion'
-
 import githubLogo from '../../media/github_logo.png'
 import linkedinLogo from '../../media/linkedin_logo.png'
 import gmailLogo from '../../media/gmail_logo.png'

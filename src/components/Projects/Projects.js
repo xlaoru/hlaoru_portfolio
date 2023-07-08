@@ -8,8 +8,6 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Container, Grid } from '@mui/material';
 
-import {motion} from 'framer-motion'
-
 import bgs from '../../media/bgs.jpg'
 import jgm from '../../media/jgm.jpg'
 import ug from '../../media/ug.jpg'

@@ -1,8 +1,6 @@
 import React from 'react';
 import { Container, Grid, Card, Typography } from '@mui/material';
 
-import {motion} from 'framer-motion'
-
 import js2 from '../../media/js2.png'
 import rjs from '../../media/rjs.png'
 import itstepDiploma from '../../media/itstep_diploma.png'
