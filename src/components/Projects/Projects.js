@@ -12,15 +12,15 @@ import bgs from '../../media/bgs.jpg'
 import jgm from '../../media/jgm.jpg'
 import ug from '../../media/ug.jpg'
 import er from '../../media/er.jpg'
-import swc from '../../media/swc.jpg'
+import clinic from '../../media/clinic.png'
 import mi from '../../media/mi.jpg'
 
 const content = [
     {image: bgs, title: 'Board Games Shop', body: 'The board game store is the place where any board game lover can be surprised by the variety of products and feel the joy of buying quality and licensed board games.', siteLink: 'https://board-games-store.netlify.app/', codeLink: 'https://github.com/xlaoru/board-games-shop_client'},
     {image: jgm, title: 'Junior Guide Map', body: 'Junior Guide Map is a web application where a person from junior to senior level can find the most concise and useful information. There are links to documentation where you can read more.', siteLink: 'https://junior-guide-map.netlify.app/', codeLink: 'https://github.com/xlaoru/junior-guide-map'},
-    {image: ug, title: 'Ultra Gym', body: 'Ultra Gym is a site where you can find detailed information about the schedule of classes, sections that are present in the gym, location and the ability to contact the administration directly.', siteLink: 'https://ultra-gym-info.netlify.app/', codeLink: 'https://github.com/xlaoru/ultra-gym'},
+    {image: clinic, title: 'Clinic', body: 'This site is based on a ready-made design and presents a landing page on which you can learn in detail about one of the many plastic clinics.', siteLink: 'https://clinic-proj.netlify.app/', codeLink: 'https://github.com/xlaoru/clinic'},
     {image: er, title: 'Employees Register', body: 'Employee Registration is a site where you can easily register all your employees, set and change their salaries, add bonuses, raise them and sort by increase or salary from $1000.', siteLink: 'https://employees-register-online.netlify.app/', codeLink: 'https://github.com/xlaoru/employees-register'},
-    {image: swc, title: 'Star Wars community', body: 'The Star Wars Community is a web application where you can read character stats, search and look at the "lazy loading" feature since there are 10 characters originally provided and there are 82 in total on the site.', siteLink: 'https://sw-community-info.netlify.app/', codeLink: 'https://github.com/xlaoru/star_wars_community_app'},
+    {image: ug, title: 'Ultra Gym', body: 'Ultra Gym is a site where you can find detailed information about the schedule of classes, sections that are present in the gym, location and the ability to contact the administration directly.', siteLink: 'https://ultra-gym-info.netlify.app/', codeLink: 'https://github.com/xlaoru/ultra-gym'},
     {image: mi, title: 'Marvel community', body: 'The Marvel Community is a web application where you can view a specific set of characters, their stats, comics where they`ve been seen, and the ability to view a random Hero of the Day.', siteLink: 'https://marvel-studios-information-portal.netlify.app/', codeLink: 'https://github.com/xlaoru/marvel-info'},
 ]
 
