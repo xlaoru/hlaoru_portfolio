@@ -9,13 +9,13 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
 import githubLogo from '../../media/github_logo.png'
-import linkedinLogo from '../../media/linkedin_logo.png'
 import gmailLogo from '../../media/gmail_logo.png'
+import tgLogo from '../../media/telegram_logo.png'
 
 const content = [
+    {image: gmailLogo, title: 'Email', link: 'mailto:sia212007@gmail.com'},
     {image: githubLogo, title: 'GitHub', link: 'https://github.com/xlaoru'},
-    {image: linkedinLogo, title: 'Linkedin', link: 'https://www.linkedin.com/'},
-    {image: gmailLogo, title: 'Email', link: 'https://mail.google.com/'},
+    {image: tgLogo, title: 'Telegram', link: 'https://t.me/Hlaoru'},
 ]
 
 const Contact = () => {

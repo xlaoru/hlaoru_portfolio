@@ -10,12 +10,19 @@ import cssLogo from '../../media/css-3_logo.png'
 import jsLogo from '../../media/js_logo.png'
 import reactLogo from '../../media/react_logo.png'
 import reduxLogo from '../../media/redux_logo.png'
-import booststrapLogo from '../../media/bootstrap-5_logo.png'
+import tsLogo from '../../media/typescript_logo.png'
 import sassLogo from '../../media/sass_logo.png'
 import muiLogo from '../../media/mui_logo.png'
 
 const skills = [
-    htmlLogo, cssLogo, jsLogo, reactLogo, reduxLogo, booststrapLogo, sassLogo, muiLogo
+    {img: htmlLogo, label: "HTML"},
+    {img: cssLogo, label: "CSS"},
+    {img: jsLogo, label: "JavaScript"},
+    {img: tsLogo, label: "TypeScript"},
+    {img: reactLogo, label: "React"},
+    {img: reduxLogo, label: "Redux"},
+    {img: sassLogo, label: "SCSS"},
+    {img: muiLogo, label: "MUI"}
 ]
 
 const mainMotion = {
@@ -56,8 +63,8 @@ const Home = () => {
                             <span className='skills'>
                                 {skills.map((item, index) => (
                                     index === 4 
-                                        ? <span key={index}><br /><motion.span custom={index + 5} variants={mainMotion} className='skill-wrapper'><img key={item} src={item} alt="skill" className='skill' /></motion.span></span>
-                                        : <motion.span custom={index + 5} variants={mainMotion} key={index} className='skill-wrapper'><img key={item} src={item} alt="skill" className='skill' /></motion.span>
+                                        ? <span style={{position: 'relative'}} key={index}><br /><motion.span custom={index + 5} variants={mainMotion} className='skill-wrapper'><img key={item} src={item.img} alt="skill" className='skill' /><span className='skill-label'>{item.label}</span></motion.span></span>
+                                        : <span style={{position: 'relative'}} key={index}><motion.span custom={index + 5} variants={mainMotion} className='skill-wrapper'><img key={item} src={item.img} alt="skill" className='skill' /><span className='skill-label'>{item.label}</span></motion.span></span>
                                 ))}
                             </span>
                         </span>
