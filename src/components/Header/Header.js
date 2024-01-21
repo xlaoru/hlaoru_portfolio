@@ -38,7 +38,7 @@ function Header(props) {
 
   const drawer = (
     <Box style={{ height: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <Box sx={{ borderBottom: '1px solid #ccc', width: '100%', textAlign: 'right', pr: 1 }}>
+      <Box sx={{ borderBottom: '1px solid #ccc', width: '100%', textAlign: 'left', pr: 1 }}>
         <IconButton color="inherit" onClick={handleDrawerToggle}>
           <CloseIcon />
         </IconButton>
